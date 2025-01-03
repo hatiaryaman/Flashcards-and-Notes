@@ -8,10 +8,10 @@
    "background": {
       "service_worker": "background.js"
    },
-   "description": "Notes",
+   "description": "Quick and easy notes online",
    "manifest_version": 3,
-   "name": "Flashcards",
-   "permissions": [ "storage", "sidePanel", "activeTab" ],
+   "name": "Flashcards and Notes",
+   "permissions": [ "storage", "sidePanel" ],
    "version": "0.1.1",
    "icons": {
       "1":"flash.png"
