@@ -1,0 +1,19 @@
+{
+   "action":{
+      "default_title": "Click to open panel"
+   },
+   "side_panel": {
+      "default_path": "sidepanel/sidepanel.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Notes",
+   "manifest_version": 3,
+   "name": "Flashcards",
+   "permissions": [ "storage", "sidePanel", "activeTab" ],
+   "version": "0.1.1",
+   "icons": {
+      "1":"flash.png"
+   } 
+}
